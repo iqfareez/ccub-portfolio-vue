@@ -3,20 +3,31 @@
     <v-container class="px-md-12 py-8">
       <div class="text-h5">Hobby & Skills 💪🏼</div>
       <br />
-      <div class="text-body-2">
-        what fields you are expert in, what do you like to do, hobbies, etc.
-      </div>
-      <div class="text-body-2">I like to <b>build</b> something.</div>
-      <div class="text-body-2">
-        Here are few programming languages and tools that I know:
-      </div>
+      <p>Nothing much, but I like to <b>build</b> something.</p>
+      <p>Here are some projects that I worked with:</p>
+      <v-carousel height="auto">
+        <v-carousel-item
+          contain
+          v-for="img in showcaseImages"
+          :key="img"
+          :src="img.src"
+        >
+          <v-row class="fill-height pl-6" align="end" justify="start">
+            <div class="text-xs-h5 text-sm-h3 white--text pb-10">
+              {{ img.title }}
+            </div>
+          </v-row>
+        </v-carousel-item>
+      </v-carousel>
+      <br />
+      <p>And here are few programming languages and tools that I know:</p>
       <br />
       <v-row>
         <v-img
           contain
           max-width="40"
           max-height="50"
-          class="ma-3"
+          class="ml-3 mb-2"
           v-for="(logo, index) in logos"
           :alt="logo.imgAlt"
           :src="logo.imgSrc"
@@ -38,11 +49,14 @@ export default {
     return {
       model: 0,
       showcaseImages: [
-        "https://lh3.googleusercontent.com/pw/AM-JKLU8RSypASLbiF0ns50xuz9MwEHZL1phjyfG93GUOyJ30xc4JlRH83nTfJJ3FjkAY7yUzX7KCwHXZfMXN-Mm5ICwewc0Ox2c3797Q5Cf3fx5LWjqeqXFki106P7qtUu3cwH7JP8rFCT4RNW_moNJt_3x5A=w1281-h855-no",
-        "secondary",
-        "yellow darken-2",
-        "red",
-        "orange",
+        {
+          src: "https://lh3.googleusercontent.com/pw/AM-JKLUaNVHdSFBU1qsjqh7yTg36c4eNz216DlUYSE44Q1Xtf1DiaO5xgtW4etFb-TpSOE9SUHBv3VtfvlgLO1TJIJcJ-tyD7EVeWbOVtCUM4dHCWnj7TIX--jmbh_oI05tQGa_jEbjDqjitrFVG3pch3GFyPw=w1231-h923-no",
+          title: "HuTem",
+        },
+        {
+          src: "https://lh3.googleusercontent.com/pw/AM-JKLV_5SHGwUp01Xfopis-1yGpgD481OYdpWwzGBgCjBCCp2wAr5Ntz7oH_DlazVZ65Ywaqj-hVFq6EwdhZqb3jTmSrHjRfgWS-kSX7RlfnpzBpyWVZ8ag1pzpID5vYDnN6tGheBPUKXYzddSqgAf92-TGaQ=w1231-h923-no",
+          title: "Exam Timer",
+        },
       ],
       logos: [
         { imgSrc: require("@/assets/programminglogo/c.svg"), imgAlt: "C" },

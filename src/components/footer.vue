@@ -5,14 +5,13 @@
       <a href="https://vuejs.org/">Vue.js</a>,
       <a href="https://vuetifyjs.com/" target="_blank" rel="noopener noreferrer"
         >Vuetify</a
-      >, icons from
+      >, icons are from
       <a
         href="http://fontawesome.com/"
         target="_blank"
         rel="noopener noreferrer"
         >FontAwesome</a
-      >
-      & hosted on
+      >, build & hosted on
       <a
         href="https://www.netlify.com/"
         target="_blank"
