@@ -4,6 +4,7 @@
     <Skills />
     <Contribution />
     <Activities />
+    <Footer />
   </v-sheet>
 </template>
 
@@ -12,6 +13,7 @@ import Biodata from "./Biodata.vue";
 import Skills from "./Skills.vue";
 import Contribution from "./Contribution.vue";
 import Activities from "./Activities.vue";
+import Footer from "./footer.vue";
 
 export default {
   name: "MyPage",
@@ -20,6 +22,7 @@ export default {
     Skills,
     Contribution,
     Activities,
+    Footer,
   },
 };
 </script>

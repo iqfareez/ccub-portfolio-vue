@@ -8,7 +8,7 @@
       </div>
       <br />
       <div class="row">
-        <v-card @click="openWordpress" class="mx-auto my-4" max-width="300">
+        <v-card @click="openWordpress" class="mx-auto my-2" max-width="300">
           <v-img
             src="https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg"
             max-height="180"
@@ -22,7 +22,7 @@
             speeches.</v-card-subtitle
           >
         </v-card>
-        <v-card @click="openInstagram" class="mx-auto my-auto" max-width="300">
+        <v-card @click="openInstagram" class="mx-auto my-2" max-width="300">
           <v-img src="@/assets/instagrampost.jpg" max-height="180"></v-img>
           <v-card-title
             ><i class="fab fa-instagram"></i> &nbsp;Instagram</v-card-title
@@ -32,7 +32,7 @@
             graphics/poster.</v-card-subtitle
           >
         </v-card>
-        <v-card @click="openYoutube" class="mx-auto my-auto" max-width="300">
+        <v-card @click="openYoutube" class="mx-auto my-2" max-width="300">
           <iframe
             width="300"
             height="180"
@@ -51,7 +51,7 @@
             channel</v-card-subtitle
           >
         </v-card>
-        <v-card @click="openMpt" class="mx-auto my-auto" max-width="300">
+        <v-card @click="openMpt" class="mx-auto my-2" max-width="300">
           <v-img src="@/assets/mpt_promo.png" height="180"></v-img>
           <v-card-title
             ><i class="fab fa-google-play"></i> &nbsp;Malaysia Prayer

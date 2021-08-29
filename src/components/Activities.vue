@@ -1,5 +1,9 @@
 <template>
   <div class="body">
+    <!-- <v-parallax
+      height="200"
+      src="https://lh3.googleusercontent.com/pw/AM-JKLWjXtkYIkVOPURKgNyqjmysjFdaMaZgTIWVAMDB2ivt-k2qOYocnGEepAuV-0NrEAXlEx64asUZrauy1nSD2_SVEXtoJzM-SFrHZz9So4RkqJyAcgDI-IVU9XNzis_2CKBLlgqZv0G9qV1RubnmWVzbww=w840-h473-no"
+    ></v-parallax> -->
     <v-container class="px-md-12 py-8">
       <div class="text-h5">Activities <kbd>CCUB 3621</kbd></div>
       <br />
@@ -38,7 +42,7 @@
             Role Play: Animosity
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            Long poster:
+            Long poster (might take some time to load):
             <div
               style="
                 position: relative;
@@ -83,11 +87,18 @@
           <v-expansion-panel-header>
             Portfolio website
           </v-expansion-panel-header>
-          <v-expansion-panel-content> This website. </v-expansion-panel-content>
+          <v-expansion-panel-content>
+            This website.
+            <a
+              href="https://github.com/iqfareez/ccub-portfolio-vue"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Open-sourced</a
+            >
+          </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
     </v-container>
-    <v-parallax height="200" src="@/assets/bgori.jpeg"></v-parallax>
   </div>
 </template>
 
