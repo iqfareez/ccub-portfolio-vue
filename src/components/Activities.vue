@@ -10,6 +10,14 @@
 
       <v-expansion-panels>
         <v-expansion-panel>
+          <v-expansion-panel-header
+            >Naqib: Halil Ibrahim (Section 102)
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-img src="@/assets/Screenshot 2021-08-25 113901.png"></v-img>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
           <v-expansion-panel-header>
             City: Urfa (Turkey)</v-expansion-panel-header
           >

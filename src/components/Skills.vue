@@ -4,10 +4,12 @@
       <div class="text-h5">Hobby & Skills 💪🏼</div>
       <br />
       <p>Nothing much, but I like to <b>build</b> something.</p>
-      <p>Here are some projects that I worked with:</p>
+      <p>Here are some side-projects that I made:</p>
       <v-carousel height="auto">
         <v-carousel-item
           contain
+          :href="img.link"
+          target="_blank"
           v-for="(img, index) in showcaseImages"
           :key="index"
           :src="img.src"
@@ -52,10 +54,12 @@ export default {
         {
           src: "https://lh3.googleusercontent.com/pw/AM-JKLUaNVHdSFBU1qsjqh7yTg36c4eNz216DlUYSE44Q1Xtf1DiaO5xgtW4etFb-TpSOE9SUHBv3VtfvlgLO1TJIJcJ-tyD7EVeWbOVtCUM4dHCWnj7TIX--jmbh_oI05tQGa_jEbjDqjitrFVG3pch3GFyPw=w1231-h923-no",
           title: "HuTem",
+          link: "https://github.com/iqfareez/PlatformIO-Projects/tree/main/DH11%20ESP%20Firebase",
         },
         {
           src: "https://lh3.googleusercontent.com/pw/AM-JKLV_5SHGwUp01Xfopis-1yGpgD481OYdpWwzGBgCjBCCp2wAr5Ntz7oH_DlazVZ65Ywaqj-hVFq6EwdhZqb3jTmSrHjRfgWS-kSX7RlfnpzBpyWVZ8ag1pzpID5vYDnN6tGheBPUKXYzddSqgAf92-TGaQ=w1231-h923-no",
           title: "Exam Timer",
+          link: "https://github.com/iqfareez/PlatformIO-Projects/tree/main/Countdown%20Timer",
         },
       ],
       logos: [
