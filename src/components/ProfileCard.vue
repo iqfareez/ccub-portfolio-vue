@@ -24,9 +24,6 @@
 
 <script>
 export default {
-  name: "Profile Card",
+  name: "ProfileCard",
 };
 </script>
-
-<style scoped>
-</style>

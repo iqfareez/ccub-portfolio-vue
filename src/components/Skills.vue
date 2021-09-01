@@ -8,8 +8,8 @@
       <v-carousel height="auto">
         <v-carousel-item
           contain
-          v-for="img in showcaseImages"
-          :key="img"
+          v-for="(img, index) in showcaseImages"
+          :key="index"
           :src="img.src"
         >
           <v-row class="fill-height pl-6" align="end" justify="start">

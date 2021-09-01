@@ -17,7 +17,11 @@
         <b>LOVE</b> what you're doing
       </blockquote>
     </v-container>
-    <v-parallax height="200" src="@/assets/capsule 2K17 (12).jpg"></v-parallax>
+    <v-parallax
+      contain
+      height="200"
+      src="https://lh3.googleusercontent.com/pw/AM-JKLUInrUe7ODMryQUMOO0z9ARzUZQm01B3opD9hg-zUUKm_wh_xyw-ZG0W9unIEQ61em3gbQSzMgR4QyUii1iNtp2-2kYQ8AeFK-lJRNuPwOwwwywWzE_2Rjeeitlecw7LrJP2A1JPlJ31rBOZhaQSsGTqQ=w1280-h720-no"
+    ></v-parallax>
   </div>
 </template>
 

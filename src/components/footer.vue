@@ -1,5 +1,5 @@
 <template>
-  <div class="pa-12">
+  <v-container class="pa-12">
     <div class="text-caption text-center">
       Thank you for visiting. Website made with
       <a href="https://vuejs.org/">Vue.js</a>,
@@ -19,7 +19,7 @@
         >Netlify</a
       >.
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
