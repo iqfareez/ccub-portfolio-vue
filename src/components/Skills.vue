@@ -53,7 +53,7 @@ export default {
       showcaseImages: [
         {
           src: "https://lh3.googleusercontent.com/pw/AM-JKLUaNVHdSFBU1qsjqh7yTg36c4eNz216DlUYSE44Q1Xtf1DiaO5xgtW4etFb-TpSOE9SUHBv3VtfvlgLO1TJIJcJ-tyD7EVeWbOVtCUM4dHCWnj7TIX--jmbh_oI05tQGa_jEbjDqjitrFVG3pch3GFyPw=w1231-h923-no",
-          title: "HuTem",
+          title: "HuTem (IoT)",
           link: "https://github.com/iqfareez/PlatformIO-Projects/tree/main/DH11%20ESP%20Firebase",
         },
         {

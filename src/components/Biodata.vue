@@ -10,8 +10,8 @@
         pursuing Bachelor of Engineering (Mechatronics).
       </p>
       <p>
-        For food, I like popia, and potatoes product. Also a cat person and not
-        a people person.
+        Just some facts about me: I like popia, and potatoes product. I also
+        like cats.
       </p>
       <!-- <br /> -->
       <div class="text-body-2">Just some random quote:</div>
