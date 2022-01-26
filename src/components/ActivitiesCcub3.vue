@@ -23,26 +23,14 @@
           >
           <v-expansion-panel-content>
             <iframe
-              class="d-none d-sm-block"
-              src="https://liveiiumedu-my.sharepoint.com/personal/fareez_iqmal_live_iium_edu_my/_layouts/15/Doc.aspx?sourcedoc={f90cef9b-6b8b-4217-82b5-d07012290453}&amp;action=embedview&amp;wdAr=1.7777777777777777"
-              width="610px"
-              height="367px"
+              src="https://docs.google.com/presentation/d/e/2PACX-1vQXTHb-leHnIQuPXllXGmmamgdKc25v6GKA16pxxQAqmqXVEzVq-A6Z3zOt619ySA/embed?start=true&loop=false&delayms=3000"
               frameborder="0"
-              >This is an embedded
-              <a target="_blank" href="https://office.com">Microsoft Office</a>
-              presentation, powered by
-              <a target="_blank" href="https://office.com/webapps">Office</a
-              >.</iframe
-            >
-            <div class="d-sm-none">
-              Can't render preview on mobile screens. &nbsp;<v-btn
-                small
-                color="primary"
-              >
-                Open
-              </v-btn>
-              &nbsp; slides instead.
-            </div>
+              width="480"
+              height="299"
+              allowfullscreen="true"
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+            ></iframe>
           </v-expansion-panel-content>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -91,20 +79,6 @@
             by MUHD FAREEZ IQMAL
           </v-expansion-panel-content>
         </v-expansion-panel>
-        <v-expansion-panel>
-          <v-expansion-panel-header>
-            Portfolio website
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-            This website.
-            <a
-              href="https://github.com/iqfareez/ccub-portfolio-vue"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Open-sourced</a
-            >
-          </v-expansion-panel-content>
-        </v-expansion-panel>
       </v-expansion-panels>
     </v-container>
   </div>
@@ -112,7 +86,7 @@
 
 <script>
 export default {
-  name: "Activities",
+  name: "Activities3",
 };
 </script>
 

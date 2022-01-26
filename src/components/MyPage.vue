@@ -13,7 +13,9 @@
               <Biodata />
               <Skills />
               <Contribution />
-              <Activities />
+              <Activities3 />
+              <Activities4 />
+              <Reflections />
             </v-sheet>
             <Footer />
           </v-col>
@@ -27,7 +29,9 @@
 import Biodata from "./Biodata.vue";
 import Skills from "./Skills.vue";
 import Contribution from "./Contribution.vue";
-import Activities from "./Activities.vue";
+import Activities3 from "./ActivitiesCcub3.vue";
+import Activities4 from "./ActivitiesCcub4.vue";
+import Reflections from "./Reflections.vue";
 import Footer from "./footer.vue";
 import ProfileCard from "./ProfileCard.vue";
 
@@ -38,7 +42,9 @@ export default {
     Biodata,
     Skills,
     Contribution,
-    Activities,
+    Activities3,
+    Activities4,
+    Reflections,
     Footer,
   },
 };

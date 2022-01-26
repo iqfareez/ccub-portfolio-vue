@@ -17,7 +17,7 @@
       ></v-img>
       <br />
       <div class="text-body-1">Muhammad Fareez Iqmal<br /></div>
-      <div class="text-subtitle-2 font-weight-light">1914577 | CCUB 3621</div>
+      <div class="text-subtitle-2 font-weight-light">1914577 | CCUB 4621</div>
     </v-sheet>
   </div>
 </template>
