@@ -11,7 +11,7 @@
       <v-expansion-panels>
         <v-expansion-panel>
           <v-expansion-panel-header
-            >Naqib: Halil Ibrahim (Section 114)
+            >Naqib: Br Halil Ibrahim (Section 114)
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <v-img

@@ -3,11 +3,21 @@
     <v-container class="px-md-12 py-8">
       <div class="text-h5">Contribution 💁🏼‍♂️</div>
       <br />
-      <div class="text-body-2">
-        Most my contribution is on the digital platforms. Check these out:
-      </div>
-      <br />
       <div class="row">
+        <v-card @click="openInstagram" class="mx-auto my-2" max-width="300">
+          <v-img
+            src="@/assets/1640332725930-crop (Custom).jpg"
+            max-height="180"
+          ></v-img>
+          <v-card-title
+            ><i class="fas fa-people-carry"></i> &nbsp;SCUBA
+            Harmoni</v-card-title
+          >
+          <v-card-subtitle
+            >Flood relief volunteer at Hulu Langat.
+            #daruratbanjir</v-card-subtitle
+          >
+        </v-card>
         <v-card @click="openWordpress" class="mx-auto my-2" max-width="300">
           <v-img
             src="https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg"
@@ -20,16 +30,6 @@
           <v-card-subtitle
             >I shared some tazkirah collected from articles and
             speeches.</v-card-subtitle
-          >
-        </v-card>
-        <v-card @click="openInstagram" class="mx-auto my-2" max-width="300">
-          <v-img src="@/assets/instagrampost.jpg" max-height="180"></v-img>
-          <v-card-title
-            ><i class="fab fa-instagram"></i> &nbsp;Instagram</v-card-title
-          >
-          <v-card-subtitle
-            >A successor for the blog. I post Islamic knowledge in form of
-            graphics/poster.</v-card-subtitle
           >
         </v-card>
         <v-card @click="openYoutube" class="mx-auto my-2" max-width="300">
@@ -99,7 +99,7 @@ export default {
   color: rgb(255, 0, 0);
 }
 
-.fa-instagram {
+.fa-people-carry {
   color: #c13584;
 }
 

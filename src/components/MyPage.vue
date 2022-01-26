@@ -13,6 +13,8 @@
               <Biodata />
               <Skills />
               <Contribution />
+              <Activities1 />
+              <Activities2 />
               <Activities3 />
               <Activities4 />
               <Reflections />
@@ -29,6 +31,8 @@
 import Biodata from "./Biodata.vue";
 import Skills from "./Skills.vue";
 import Contribution from "./Contribution.vue";
+import Activities1 from "./ActivitiesCcub1.vue";
+import Activities2 from "./ActivitiesCcub2.vue";
 import Activities3 from "./ActivitiesCcub3.vue";
 import Activities4 from "./ActivitiesCcub4.vue";
 import Reflections from "./Reflections.vue";
@@ -42,6 +46,8 @@ export default {
     Biodata,
     Skills,
     Contribution,
+    Activities1,
+    Activities2,
     Activities3,
     Activities4,
     Reflections,
